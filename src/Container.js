@@ -8,7 +8,7 @@ class Container extends Component {
           <div>
             <div className="container">
               <Signup />
-              <Message messageHeader="This is a message!" messageBody="Hi! this is an attempt at a Bulma Message."/>
+              <Message messageHeader="Gustavo Rivera Pecunia" messageBody="Hi! this is an attempt at a Bulma Message."/>
             </div>
           </div>
         );
