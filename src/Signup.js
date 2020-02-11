@@ -8,12 +8,13 @@ class Signup extends Component {
         return (
           <div>
             <Navbar />
-            {/* <FormField /> */}
             <FormField type="text" label="Name" placeholder="e.g. John Smith" />
             <FormField type="email" label="Email" placeholder="johny@noemail.com" />
             <FormField type="password" label="Password" placeholder="Enter your password" />
+            
             <br/>
             <CoolButton btnType="button is-success" btnText="Submit" />
+            <br/>
           </div>
         );
     }

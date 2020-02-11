@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Signup from './Signup';
+import Message from "./Message";
 
 class Container extends Component {
     render() {
@@ -7,6 +8,7 @@ class Container extends Component {
           <div>
             <div className="container">
               <Signup />
+              <Message messageHeader="This is a message!" messageBody="Hi! this is an attempt at a Bulma Message."/>
             </div>
           </div>
         );
